@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creative/simpleFactory/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConcreteProduct1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/creative/simpleFactory/ConcreteProduct1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,8 +47,8 @@
       <file leaf-file-name="TestSimpleFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestSimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="345">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="470">
+                <caret line="61" selection-start-line="61" selection-end-line="61" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -77,8 +80,8 @@
       <file leaf-file-name="ConcreteFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/ConcreteFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
@@ -144,11 +147,12 @@
         <option value="$PROJECT_DIR$/src/main/java/creative/simpleFactory/ConcreteProduct2.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/simpleFactory/ConcreteProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/simpleFactory/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSimpleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/factoryMethod/ConcreteProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/factoryMethod/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/factoryMethod/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/factoryMethod/ConcreteFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSimpleFactory.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -281,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSimpleFactory.test1">
+  <component name="RunManager" selected="JUnit.TestSimpleFactory.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -353,6 +357,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestSimpleFactory.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.ivan" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSimpleFactory" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -396,9 +417,11 @@
       <item itemvalue="JUnit.TestDemo.testSingleton" />
       <item itemvalue="JUnit.TestSimpleFactory.test1" />
       <item itemvalue="JUnit.TestSimpleFactory" />
+      <item itemvalue="JUnit.TestSimpleFactory.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSimpleFactory.test2" />
         <item itemvalue="JUnit.TestSimpleFactory.test1" />
         <item itemvalue="JUnit.TestSimpleFactory" />
         <item itemvalue="JUnit.TestDemo.testSingleton" />
@@ -417,7 +440,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534297975151</updated>
       <workItem from="1534297981028" duration="2878000" />
-      <workItem from="1534301379825" duration="7181000" />
+      <workItem from="1534301379825" duration="10790000" />
     </task>
     <servers />
   </component>
@@ -446,9 +469,12 @@
     <history-entry file="TestSimpleFactory_test1 - 2018.08.15 at 14h 35m 27s.xml">
       <configuration name="TestSimpleFactory.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSimpleFactory_test2 - 2018.08.15 at 16h 02m 56s.xml">
+      <configuration name="TestSimpleFactory.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10059000" />
+    <option name="totallyTimeSpent" value="13668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -464,11 +490,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -638,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -662,10 +678,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/ConcreteFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#175#176#0" expanded="true" />
@@ -673,10 +696,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creative/factoryMethod/Factory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSimpleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="470">
+            <caret line="61" selection-start-line="61" selection-end-line="61" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
