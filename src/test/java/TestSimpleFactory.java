@@ -1,3 +1,5 @@
+import creative.abstractFactory.AbstractFactory;
+import creative.abstractFactory.ConcreteFactory1;
 import creative.factoryMethod.ConcreteFactory;
 import creative.factoryMethod.Factory;
 import creative.simpleFactory.Product;
@@ -16,6 +18,7 @@ public class TestSimpleFactory {
         Factory factory=new ConcreteFactory();
         factory.dosomething();
     }
+
 
 
 }
