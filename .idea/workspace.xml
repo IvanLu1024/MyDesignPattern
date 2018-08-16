@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="710">
-                <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <first_editor relative-caret-position="408">
+                <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/creative/builder/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -44,6 +44,42 @@
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prototype.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creative/prototype/Prototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creative/prototype/ConcreteType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPrototype.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestPrototype.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,10 +159,13 @@
         <option value="$PROJECT_DIR$/src/main/java/creative/abstractFactory/ConcreteFactory1.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/abstractFactory/AbstractProductA.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/abstractFactory/ProductA1.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/creative/builder/AbstractStringBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/creative/builder/StringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creative/prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creative/prototype/ConcreteType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPrototype.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -147,7 +186,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="867" />
@@ -202,7 +241,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="creative" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyDesinPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBuilder.test">
+  <component name="RunManager" selected="JUnit.TestPrototype.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -292,14 +331,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestSimpleFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrototype.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.ivan" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSimpleFactory" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestPrototype" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -383,18 +422,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSimpleFactory.test1" />
-      <item itemvalue="JUnit.TestSimpleFactory" />
       <item itemvalue="JUnit.TestSimpleFactory.test2" />
       <item itemvalue="JUnit.TestAbstractFactory.test3" />
       <item itemvalue="JUnit.TestBuilder.test" />
+      <item itemvalue="JUnit.TestPrototype.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPrototype.test" />
         <item itemvalue="JUnit.TestBuilder.test" />
         <item itemvalue="JUnit.TestAbstractFactory.test3" />
         <item itemvalue="JUnit.TestSimpleFactory.test2" />
         <item itemvalue="JUnit.TestSimpleFactory.test1" />
-        <item itemvalue="JUnit.TestSimpleFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -410,17 +449,11 @@
       <updated>1534297975151</updated>
       <workItem from="1534297981028" duration="2878000" />
       <workItem from="1534301379825" duration="15291000" />
-      <workItem from="1534381831343" duration="6114000" />
+      <workItem from="1534381831343" duration="7291000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDemo_testSingleton - 2018.08.15 at 11h 06m 54s.xml">
-      <configuration name="TestDemo.testSingleton" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDemo_testSingleton - 2018.08.15 at 13h 53m 55s.xml">
-      <configuration name="TestDemo.testSingleton" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSimpleFactory_test1 - 2018.08.15 at 14h 35m 02s.xml">
       <configuration name="TestSimpleFactory.test1" configurationId="JUnit" />
     </history-entry>
@@ -445,9 +478,15 @@
     <history-entry file="TestBuilder_test - 2018.08.16 at 18h 56m 14s.xml">
       <configuration name="TestBuilder.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestPrototype_test - 2018.08.16 at 19h 12m 29s.xml">
+      <configuration name="TestPrototype.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrototype_test - 2018.08.16 at 19h 12m 57s.xml">
+      <configuration name="TestPrototype.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24283000" />
+    <option name="totallyTimeSpent" value="25460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -463,11 +502,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23854166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23854166" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -757,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="710">
-            <caret line="89" selection-start-line="89" selection-end-line="89" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -788,16 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/creative/builder/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -808,6 +827,56 @@
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creative/prototype/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creative/prototype/ConcreteType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="408">
+            <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
