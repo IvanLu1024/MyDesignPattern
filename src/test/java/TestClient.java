@@ -1,5 +1,9 @@
 import behavioural.ChainOfResponsibility.*;
 import behavioural.command.*;
+import behavioural.interpreter.AndExpression;
+import behavioural.interpreter.Expression;
+import behavioural.interpreter.OrExpression;
+import behavioural.interpreter.TerminalExpression;
 import org.junit.Test;
 
 public class TestClient {
@@ -32,6 +36,12 @@ public class TestClient {
         invoker.setOnCommands(lightOnCommand,0);
         invoker.onButtonPushed(0);
         invoker.offButtonPushed(0);
+
+
+    }
+    @Test
+    public void testInterpreter(){
+
 
 
     }
