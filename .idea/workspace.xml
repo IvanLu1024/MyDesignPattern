@@ -160,7 +160,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="867" />
@@ -417,17 +417,11 @@
       <workItem from="1534301379825" duration="15291000" />
       <workItem from="1534381831343" duration="7885000" />
       <workItem from="1534498949940" duration="796000" />
-      <workItem from="1534566100734" duration="1458000" />
+      <workItem from="1534566100734" duration="2054000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSimpleFactory_test1 - 2018.08.15 at 14h 35m 02s.xml">
-      <configuration name="TestSimpleFactory.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSimpleFactory - 2018.08.15 at 14h 35m 13s.xml">
-      <configuration name="TestSimpleFactory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSimpleFactory_test1 - 2018.08.15 at 14h 35m 27s.xml">
       <configuration name="TestSimpleFactory.test1" configurationId="JUnit" />
     </history-entry>
@@ -452,12 +446,18 @@
     <history-entry file="TestPrototype_test - 2018.08.16 at 19h 12m 57s.xml">
       <configuration name="TestPrototype.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestClient_test1 - 2018.08.18 at 13h 24m 38s.xml">
+      <configuration name="TestClient.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient_test1 - 2018.08.18 at 13h 26m 31s.xml">
+      <configuration name="TestClient.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28308000" />
+    <option name="totallyTimeSpent" value="28904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -480,7 +480,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995657" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
