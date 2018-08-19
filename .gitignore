@@ -7,3 +7,7 @@
 *.xml
 .idea/workspace.xml
 *.xml
+*.xml
+.idea/misc.xml
+.idea/compiler.xml
+.idea/.name

@@ -1,9 +1,5 @@
-import behavioural.ChainOfResponsibility.*;
+import behavioural.chainOfResponsibility.*;
 import behavioural.command.*;
-import behavioural.interpreter.AndExpression;
-import behavioural.interpreter.Expression;
-import behavioural.interpreter.OrExpression;
-import behavioural.interpreter.TerminalExpression;
 import org.junit.Test;
 
 public class TestClient {

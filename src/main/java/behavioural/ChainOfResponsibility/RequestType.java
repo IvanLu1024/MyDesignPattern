@@ -1,4 +1,4 @@
-package behavioural.ChainOfResponsibility;
+package behavioural.chainOfResponsibility;
 
 public enum  RequestType {
     type1,
