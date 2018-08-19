@@ -10,5 +10,8 @@
         <module name="MyDesignPattern" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.ivan" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
