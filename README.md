@@ -1,12 +1,12 @@
 <!-- GFM-TOC -->
-* [二、创建型](##创建型)
-    * [1. 单例（Singleton）](#1-单例singleton)
+* [一、创建型](##创建型)
+    * [1. 单例（Singleton）](-## 单例模式)
     * [2. 简单工厂（Simple Factory）](#2-简单工厂simple-factory)
     * [3. 工厂方法（Factory Method）](#3-工厂方法factory-method)
     * [4. 抽象工厂（Abstract Factory）](#4-抽象工厂abstract-factory)
     * [5. 生成器（Builder）](#5-生成器builder)
     * [6. 原型模式（Prototype）](#6-原型模式prototype)
-* [三、行为型](#三行为型)
+* [二、行为型](##行为型)
     * [1. 责任链（Chain Of Responsibility）](#1-责任链chain-of-responsibility)
     * [2. 命令（Command）](#2-命令command)
     * [3. 解释器（Interpreter）](#3-解释器interpreter)
@@ -19,7 +19,7 @@
     * [10. 模板方法（Template Method）](#10-模板方法template-method)
     * [11. 访问者（Visitor）](#11-访问者visitor)
     * [12. 空对象（Null）](#12-空对象null)
-* [四、结构型](#四结构型)
+* [三、结构型](##结构型)
     * [1. 适配器（Adapter）](#1-适配器adapter)
     * [2. 桥接（Bridge）](#2-桥接bridge)
     * [3. 组合（Composite）](#3-组合composite)
@@ -67,7 +67,6 @@
 2. **如果想要把对外创建对象的职责集中管理和控制**，可以选用简单工厂，一个简单工厂
 可以创建很多的、不相关的对象，可以把对外创建对象的职责集中到一个简单工厂来，从而实现集中管
 理和控制。`
- 
 
 - ## 工厂方法
 
